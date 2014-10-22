@@ -51,7 +51,7 @@ int main() {
         cout << "Starting memory leak test " << endl;
         for (int i = 0; i < 50; i++) {
             node * p = makeARandomTree(30);
-            cerr<<nodeCount(p)<<endl;
+            cerr<< "Nodecount for random tree Generated: " << nodeCount(p)<<endl;
             deleteTree(p);
         }
         cout << "Done with memory leak test " << endl;
