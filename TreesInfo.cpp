@@ -11,7 +11,6 @@
 #include <cmath>
 #include <string>
 #include <queue>
-#include <stack>
 using namespace std;
 
 struct node  {
